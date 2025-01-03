@@ -61,6 +61,42 @@ export default function LayoutPage() {
                         </Link>
                     </div>
 
+                    <div>align-start</div>
+                    <div>align-items: flex-start;</div>
+
+                    <div>align-center</div>
+                    <div>align-items: center;</div>
+
+                    <div>align-end</div>
+                    <div>align-items: flex-end;</div>
+
+                    <div>justify-start</div>
+                    <div>justify-items: flex-start;</div>
+
+                    <div>justify-center</div>
+                    <div>justify-items: center;</div>
+
+                    <div>justify-end</div>
+                    <div>justify-items: flex-end;</div>
+
+                    <div>align-self-start</div>
+                    <div>align-self: flex-start;</div>
+
+                    <div>align-self-center</div>
+                    <div>align-self: center;</div>
+
+                    <div>align-self-end</div>
+                    <div>align-self: flex-end;</div>
+
+                    <div>justify-self-start</div>
+                    <div>justify-self: flex-start;</div>
+
+                    <div>justify-self-center</div>
+                    <div>justify-self: center;</div>
+
+                    <div>justify-self-end</div>
+                    <div>justify-self: flex-end;</div>
+
                     <div>grow</div>
                     <div>flex-grow: 1;</div>
 
