@@ -3,7 +3,7 @@
 import "./globals.css";
 import { useSystemColorScheme } from "@/hooks/ useSystemColorScheme";
 import { useEffect, useState } from "react";
-import "./oxiris-css-2.0.0.css";
+import "./oxiris-css-2.1.0.css";
 import { Roboto_Mono } from "next/font/google";
 import { GithubIcon } from "@/components/icon/github";
 import { NavMenu } from "@/components/nav-menu";
@@ -98,18 +98,14 @@ export default function RootLayout({
                                 Menu
                             </button>
                         </div>
-                        <div
-                            className={`justify-end lg:hide w-100% ${isSubMenuOpen ? "row" : "hide"}`}
-                        >
-                            <NavMenu
-                                className={`lg:hide gap-1 p-1 chroma-bg-2 border-1px max-w-span-6 round-2 hue-b col`}
-                            ></NavMenu>
-                        </div>
                     </div>
-                    <div className="row gap-2 md:gap-3 align-start md:mx-3 mb-8 md:mb-0">
-                        <NavMenu className="hide lg:col gap-1 w-span-3 letter-0.05em hue-b"></NavMenu>
+                    <div className="col lg:row lg:mx-3 gap-2 md:gap-3 align-start mb-8 md:mb-0">
+                        <NavMenu
+                            toggleSettings={toggleSettings}
+                            className={`${isSubMenuOpen ? "col" : "hide"} lg:col mx-2 lg:mx-0 align-self-end lg:align-self-start gap-1 border-1px lg:border-0 p-1 lg:p-0 lg:w-span-3 max-w-span-6 letter-0.05em hue-b chroma-bg-2 lg:chroma-bg-0 round-2`}
+                        ></NavMenu>
 
-                        <main className="light:chroma-bg-3 border-top-1px md:border-1px round-0 md:round-1 grow overflow-no lh-1.5">
+                        <main className="light:chroma-bg-3 md:mx-2 lg:mx-0 border-top-1px md:border-1px round-0 md:round-1 grow overflow-no lh-1.5">
                             {children}
                         </main>
                     </div>

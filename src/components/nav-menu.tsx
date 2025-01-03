@@ -13,7 +13,13 @@ const SUB_MENU_ROUTES: SubMenuRoute[] = [
     "/production",
 ];
 
-export function NavMenu({ className }: { className: string }) {
+export function NavMenu({
+    toggleSettings,
+    className,
+}: {
+    toggleSettings: () => void;
+    className: string;
+}) {
     const pathname = usePathname();
 
     const [openedSubMenus, setOpenedSubMenus] = useState<SubMenuRoute[]>(
@@ -35,7 +41,12 @@ export function NavMenu({ className }: { className: string }) {
     return (
         <div className={className}>
             <div className="lg:hide row flex-wrap gap-1">
-                <button className="button h-6 hue-neutral">Settings</button>
+                <button
+                    onClick={toggleSettings}
+                    className="button h-6 hue-neutral"
+                >
+                    Settings
+                </button>
                 <button className="button h-6 disabled hue-neutral">
                     Version 2
                 </button>
