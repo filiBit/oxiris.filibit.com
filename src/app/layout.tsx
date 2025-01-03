@@ -61,7 +61,7 @@ export default function RootLayout({
                 }}
             >
                 <div className="max-w-span-16 mx-auto col gap-2 md:gap-3">
-                    <div className="p-2 lg:p-3 row justify-between flex-wrap gap-2 lg:gap-3">
+                    <div className="pt-2 px-2 md:pt-3 md:px-3 row justify-between flex-wrap gap-2 lg:gap-3">
                         <Link
                             href="/"
                             className="button letter-0.2em w-span-3 h-6"
