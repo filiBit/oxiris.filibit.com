@@ -64,7 +64,7 @@ export default function RootLayout({
                     <div className="pt-2 px-2 md:pt-3 md:px-3 row justify-between flex-wrap gap-2 lg:gap-3">
                         <Link
                             href="/"
-                            className="button letter-0.2em w-span-3 h-6"
+                            className="button letter-0.2em w-span-3 h-6 hue-a chroma-bg-3"
                         >
                             O
                             <img

@@ -76,7 +76,7 @@ export default function Home() {
                 <div className="row justify-end mt-8 mb-3">
                     <Link
                         href="/concept"
-                        className="button var-contained hue-d"
+                        className="button var-contained hue-b"
                     >
                         Get started &gt;
                     </Link>
