@@ -1,95 +1,87 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { CodeBox } from "@/components/code-box";
+import { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+    title: "Oxiris CSS",
+    description: "Lightweight CSS framework with minimalism and consistency",
+};
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    return (
+        <>
+            <div className="h-6 border-bottom-1px px-2 row align-center">
+                &gt; Overview
+            </div>
+            <div className="px-2 md:px-3 relative">
+                <div className="row m-0 my-8 justify-center align-center letter-0.1em">
+                    <h1 className="h1 m-0 text-center letter-0.1em">
+                        Oxiris CSS
+                    </h1>
+                    <img src="icon.svg" className="ml-2 h-5"></img>
+                </div>
+                <p className="my-3">
+                    A lightweight CSS framework that celebrates aesthetics with
+                    minimalism and consistency.
+                </p>
+                <p className="my-3">
+                    It aims to provide a good developer experience with
+                    straightforward documentation, customizability and file size
+                    optimizations for production.
+                </p>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+                <CodeBox
+                    title="Example"
+                    className="hue-b my-8"
+                    code={
+                        <>
+                            &lt;div class=&quot;col md:row border-1px gap-1 p-1
+                            round-2&quot;&gt;
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;button
+                            class=&quot;button
+                            hue-a&quot;&gt;Settings&lt;/button&gt;
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;button
+                            class=&quot;button
+                            hue-b&quot;&gt;Profile&lt;/button&gt;
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;button
+                            class=&quot;button hue-c
+                            chroma-bg-2&quot;&gt;Profile&lt;/button&gt;
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;button
+                            class=&quot;button hue-d
+                            hover:color-invert&quot;&gt;Hover me&lt;/button&gt;
+                            <br />
+                            &lt;/div&gt;
+                        </>
+                    }
+                    preview={
+                        <div className="hue-neutral col lg:row row border-1px p-1 gap-1 round-2">
+                            <button className="button hue-a">Settings</button>
+                            <button className="button hue-b chroma-bg-2">
+                                Profile
+                            </button>
+                            <button className="button hue-c active">
+                                Profile
+                            </button>
+                            <button className="button hue-d hover:color-invert">
+                                Hover me
+                            </button>
+                        </div>
+                    }
+                />
+
+                <div className="row justify-end mt-8 mb-3">
+                    <Link
+                        href="/concept"
+                        className="button var-contained hue-d"
+                    >
+                        Get started &gt;
+                    </Link>
+                </div>
+            </div>
+        </>
+    );
 }
