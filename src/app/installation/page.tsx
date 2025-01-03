@@ -17,8 +17,8 @@ export default function Installation() {
                 <h1 className="h1 m-0 my-8 text-center">Installation</h1>
                 <p className="my-3 mb">
                     Download the Oxiris CSS distribution file from&nbsp;
-                    <Link href="https://github.com/filiBit/oxiris-css">
-                        the cdn
+                    <Link href="https://raw.githubusercontent.com/filiBit/oxiris-css/3537c018b930917305d13101cb165ac1589b824f/dist/oxiris-css-2.1.0.css">
+                        here
                     </Link>
                     , and include it into your web app.
                 </p>
