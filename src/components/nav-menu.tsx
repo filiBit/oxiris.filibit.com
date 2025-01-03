@@ -48,7 +48,7 @@ export function NavMenu({
                     Settings
                 </button>
                 <button className="button h-6 disabled hue-neutral">
-                    Version 2
+                    V 2.1.0
                 </button>
                 <Link
                     className="button h-6 p-2 hue-neutral"
