@@ -99,17 +99,17 @@ export default function RootLayout({
                             </button>
                         </div>
                     </div>
-                    <div className="col lg:row lg:mx-3 gap-2 md:gap-3 align-start mb-8 md:mb-0">
+                    <div className="col lg:row md:mx-3 gap-2 md:gap-3 align-start mb-8 md:mb-0">
                         <NavMenu
                             toggleSettings={toggleSettings}
-                            className={`${isSubMenuOpen ? "col" : "hide"} lg:col mx-2 lg:mx-0 align-self-end lg:align-self-start gap-1 border-1px lg:border-0 p-1 lg:p-0 lg:w-span-3 max-w-span-6 letter-0.05em hue-b chroma-bg-2 lg:chroma-bg-0 round-2`}
+                            className={`${isSubMenuOpen ? "col" : "hide"} lg:col mx-2 md:mx-0 align-self-end lg:align-self-start gap-1 border-1px lg:border-0 p-1 lg:p-0 lg:w-span-3 max-w-span-6 letter-0.05em hue-b chroma-bg-2 lg:chroma-bg-0 round-2`}
                         ></NavMenu>
 
-                        <main className="light:chroma-bg-3 md:mx-2 lg:mx-0 border-top-1px md:border-1px round-0 md:round-1 grow overflow-no lh-1.5">
+                        <main className="light:chroma-bg-3 md:mx-0 border-top-1px md:border-1px round-0 md:round-1 grow overflow-no lh-1.5">
                             {children}
                         </main>
                     </div>
-                    <div className="row gap-2 align-start mx-2 md:mx-3">
+                    <div className="row gap-2 md:gap-3 align-start mx-2 md:mx-3 mb-2 md:mb-3">
                         <div className="w-span-3 hide lg:row"></div>
                         <Footer />
                     </div>
