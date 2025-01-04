@@ -35,7 +35,8 @@ export default function ColorsPage() {
                 </h2>
                 <p className="my3">
                     There are two color schemes available: dark and light. They
-                    are toggled by the corresponding classes
+                    are toggled by the corresponding classes. Nesting them
+                    isn&apos;t supported.
                 </p>
                 <div className="table-2 my-3">
                     <div className="f-weight-lg chroma-bg-2">Class</div>
@@ -44,7 +45,7 @@ export default function ColorsPage() {
                     <div>dark</div>
                     <div>
                         Applies the dark color palette to an element and its
-                        children
+                        children (default)
                     </div>
 
                     <div>light</div>

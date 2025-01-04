@@ -115,10 +115,11 @@ export default function LayoutPage() {
                     code={
                         <>
                             &lt;div class=&quot;row flex-wrap gap-1 border-1px
-                            p-1&quot;&gt;
+                            p-1 round-2&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-1 w-span-4&quot;&gt;
+                            class=&quot;border-1px p-1 w-span-4
+                            round-1&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&apos;m
                             in a row whose gap is 8px wide
@@ -126,7 +127,8 @@ export default function LayoutPage() {
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-1 w-span-4&quot;&gt;
+                            class=&quot;border-1px p-1 w-span-4
+                            round-1&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&apos;m
                             in a row whose gap is 8px wide
@@ -138,10 +140,10 @@ export default function LayoutPage() {
                     }
                     preview={
                         <div className="row flex-wrap gap-1 border-1px p-1 round-2">
-                            <div className="gap-1 border-1px p-1 w-span-4 round-1">
+                            <div className="border-1px p-1 w-span-4 round-1">
                                 I&apos;m in a row whose gap is 8px wide
                             </div>
-                            <div className="gap-1 border-1px p-1 w-span-4 round-1">
+                            <div className="border-1px p-1 w-span-4 round-1">
                                 I&apos;m in a row whose gap is 8px wide
                             </div>
                         </div>
@@ -152,11 +154,12 @@ export default function LayoutPage() {
                     className="my-3 hue-b"
                     code={
                         <>
-                            &lt;div class=&quot;col gap-1 border-1px
-                            p-1&quot;&gt;
+                            &lt;div class=&quot;col gap-1 border-1px p-1
+                            round-2&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-1 w-span-4&quot;&gt;
+                            class=&quot;border-1px p-1 w-span-4
+                            round-1&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&apos;m
                             in a column whose gap is 8px wide
@@ -164,7 +167,8 @@ export default function LayoutPage() {
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-1 w-span-4&quot;&gt;
+                            class=&quot;border-1px p-1 w-span-4
+                            round-1&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&apos;m
                             in a column whose gap is 8px wide
@@ -190,11 +194,12 @@ export default function LayoutPage() {
                     className="my-3 hue-b"
                     code={
                         <>
-                            &lt;div class=&quot;col md:row gap-1 border-1px
-                            p-1&quot;&gt;
+                            &lt;div class=&quot;col md:row gap-1 border-1px p-1
+                            round-2&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-1 w-span-4&quot;&gt;
+                            class=&quot;border-1px p-1 w-span-4
+                            round-1&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&apos;m
                             I&apos;m layed out in a row or column, depending on
@@ -203,7 +208,8 @@ export default function LayoutPage() {
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-1 w-span-4&quot;&gt;
+                            class=&quot;border-1px p-1 w-span-4
+                            round-1&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&apos;m
                             I&apos;m layed out in a row or column, depending on

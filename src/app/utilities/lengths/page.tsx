@@ -203,8 +203,8 @@ export default function Lengths() {
                     className="my-3 hue-b"
                     code={
                         <>
-                            &lt;div class=&quot;m-2 border-1px py-1 px-2
-                            round-1&quot;&gt;
+                            &lt;div class=&quot;m-2 border-1px py-1
+                            px-2&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;My top and bottom paddings
                             are 8px thick. Left and right ones are 16px thick.
@@ -213,7 +213,7 @@ export default function Lengths() {
                         </>
                     }
                     preview={
-                        <div className="m-2 border-1px py-1 px-2 round-1">
+                        <div className="m-2 border-1px py-1 px-2">
                             My top and bottom paddings are 8px thick. Left and
                             right ones are 16px thick.
                         </div>
@@ -304,7 +304,7 @@ export default function Lengths() {
                     code={
                         <>
                             &lt;div class=&quot;m-2 border-1px py-1 px-2
-                            w-span-3 round-1&quot;&gt;
+                            w-span-3&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;I am 96px wide.
                             <br />
@@ -312,7 +312,7 @@ export default function Lengths() {
                         </>
                     }
                     preview={
-                        <div className="m-2 border-1px py-1 px-2 w-span-3 round-1">
+                        <div className="m-2 border-1px py-1 px-2 w-span-3">
                             I span the width of 3 columns, which is 192px.
                         </div>
                     }
@@ -402,7 +402,7 @@ export default function Lengths() {
                     code={
                         <>
                             &lt;div class=&quot;m-2 border-1px py-1 px-2
-                            w-span-3 h-span-3 round-1&quot;&gt;
+                            w-span-3 h-span-3&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;I am 96px wide.
                             <br />
@@ -410,7 +410,7 @@ export default function Lengths() {
                         </>
                     }
                     preview={
-                        <div className="m-2 border-1px py-1 px-2 w-span-3 h-span-3 round-1">
+                        <div className="m-2 border-1px py-1 px-2 w-span-3 h-span-3">
                             I span the height of 3 rows, which is 192px.
                         </div>
                     }
@@ -437,8 +437,8 @@ export default function Lengths() {
                             &lt;div class=&quot;col lg:row gap-2 m-2&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-2 w-span-3 h-span-3
-                            round-1&quot;&gt;
+                            class=&quot;border-1px p-2 w-span-3
+                            h-span-3&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We&apos;re
                             16px apart.
@@ -446,8 +446,8 @@ export default function Lengths() {
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-2 w-span-3 h-span-3
-                            round-1&quot;&gt;
+                            class=&quot;border-1px p-2 w-span-3
+                            h-span-3&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We&apos;re
                             16px apart.
@@ -455,8 +455,8 @@ export default function Lengths() {
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-                            class=&quot;border-1px p-2 w-span-3 h-span-3
-                            round-1&quot;&gt;
+                            class=&quot;border-1px p-2 w-span-3
+                            h-span-3&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We&apos;re
                             16px apart.
@@ -468,13 +468,13 @@ export default function Lengths() {
                     }
                     preview={
                         <div className="col lg:row gap-2 m-2">
-                            <div className="border-1px p-2 w-span-3 h-span-3 round-1">
+                            <div className="border-1px p-2 w-span-3 h-span-3">
                                 We&apos;re 16px apart.
                             </div>
-                            <div className="border-1px p-2 w-span-3 h-span-3 round-1">
+                            <div className="border-1px p-2 w-span-3 h-span-3">
                                 We&apos;re 16px apart.
                             </div>
-                            <div className="border-1px p-2 w-span-3 h-span-3 round-1">
+                            <div className="border-1px p-2 w-span-3 h-span-3">
                                 We&apos;re 16px apart.
                             </div>
                         </div>
@@ -502,7 +502,8 @@ export default function Lengths() {
                     className="mt-3 mb-8 hue-b"
                     code={
                         <>
-                            &lt;div class=&quot;m-2 border-1px round-1&quot;&gt;
+                            &lt;div class=&quot;m-2 border-1px py-1 px-2
+                            w-span-3 h-span-3 round-1&quot;&gt;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;My corners have an 8px
                             radius
@@ -511,7 +512,7 @@ export default function Lengths() {
                         </>
                     }
                     preview={
-                        <div className="m-2 border-1px round-1">
+                        <div className="m-2 border-1px py-1 px-2 w-span-3 h-span-3 round-1">
                             My corners have an 8px radius
                         </div>
                     }
