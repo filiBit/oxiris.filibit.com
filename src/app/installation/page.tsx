@@ -17,7 +17,10 @@ export default function Installation() {
                 <h1 className="h1 m-0 my-8 text-center">Installation</h1>
                 <p className="my-3 mb">
                     Download the Oxiris CSS distribution file from&nbsp;
-                    <Link href="https://raw.githubusercontent.com/filiBit/oxiris-css/3537c018b930917305d13101cb165ac1589b824f/dist/oxiris-css-2.1.0.css">
+                    <Link
+                        href="https://github.com/filiBit/oxiris-css/blob/v2.1.1/dist/oxiris-css-2.1.1.css"
+                        className="link"
+                    >
                         here
                     </Link>
                     , and include it into your web app.
@@ -37,8 +40,9 @@ export default function Installation() {
                         <>
                             &lt;head&gt;
                             <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;linkrel=&quot;stylesheet&quot;
-                            src=&quot;/oxiris-2.0.0.css&quot; /&gt;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;link
+                            rel=&quot;stylesheet&quot;
+                            src=&quot;/oxiris-2.1.1.css&quot; /&gt;
                             <br />
                             &lt;/head&gt;
                         </>
@@ -51,7 +55,7 @@ export default function Installation() {
                 <CodeBox
                     title="JSX / TSX"
                     className="hue-b mt-3 mb-8"
-                    code={<>import &quot;./oxiris-2.0.0.css&quot;;</>}
+                    code={<>import &quot;./oxiris-2.1.1.css&quot;;</>}
                 />
             </div>
         </>
