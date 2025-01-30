@@ -3,7 +3,7 @@
 import "./globals.css";
 import { useSystemColorScheme } from "@/hooks/ useSystemColorScheme";
 import { useEffect, useState } from "react";
-import "./oxiris-css-2.1.0.css";
+import "./oxiris-css-2.1.1.css";
 import { Roboto_Mono } from "next/font/google";
 import { GithubIcon } from "@/components/icon/github";
 import { NavMenu } from "@/components/nav-menu";
