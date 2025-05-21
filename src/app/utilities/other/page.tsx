@@ -90,6 +90,15 @@ export default function OtherUtilitiesPage() {
 
                     <div>break-all</div>
                     <div>word-break: break-all;</div>
+
+                    <div>select-auto</div>
+                    <div>user-select: auto;</div>
+                    <div>select-none</div>
+                    <div>user-select: none;</div>
+                    <div>select-text</div>
+                    <div>user-select: text;</div>
+                    <div>select-all</div>
+                    <div>user-select: all;</div>
                 </div>
             </div>
         </>
