@@ -83,7 +83,7 @@ export default function RootLayout({
                                 Settings
                             </button>
                             <button className="button hide lg:row h-6 disabled">
-                                V 2.1.1
+                                V 2.2.0
                             </button>
                             <Link
                                 className="button hide lg:row h-6 p-2"
